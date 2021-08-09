@@ -1,5 +1,7 @@
 # STM32CubeF3 CMSIS Device MCU Component
 
+![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/cmsis_device_f3.svg?color=brightgreen)
+
 ## Overview
 
 **STM32Cube** is an STMicroelectronics original initiative to ease the developers life by reducing efforts, time and cost.
@@ -8,7 +10,7 @@
    * The CMSIS modules (core and device) corresponding to the ARM(tm) core implemented in this STM32 product.
    * The STM32 HAL-LL drivers, an abstraction layer offering a set of APIs ensuring maximized portability across the STM32 portfolio.
    * The BSP drivers of each evaluation, demonstration or nucleo board provided for this STM32 series.
-   * A consistent set of middleware components such as RTOS, USB, FatFS, graphics, touch sensing library...
+   * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
    * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
 
 Two models of publication are proposed for the STM32Cube embedded software:
@@ -17,7 +19,7 @@ Two models of publication are proposed for the STM32Cube embedded software:
 
 ## Description
 
-This **cmsis_device_f3** MCU component repo is one element of the STM32CubeF3 MCU embedded software package, providing the **CMSIS Device** part.
+This **cmsis_device_f3** MCU component repo is one element of the STM32CubeF3 MCU embedded software package, providing the **cmsis device** part.
 
 ## Release note
 
@@ -29,14 +31,14 @@ In this table, you can find the successive versions of this CMSIS Device compone
 
 CMSIS Device F3 | CMSIS Core | Was delivered in the full MCU package
 --------------- | ---------- | -------------------------------------
-Tag v2.3.3 | Tag v4.5_cm4   | Tag v1.10.0 (and following, if any, till next CMSIS tag)
-Tag v2.3.4 | Tag v5.4.0_cm4 | Tag v1.11.0 (and following, if any, till next CMSIS tag)
-Tag v2.3.5 | Tag v5.4.0_cm4 | Tag v1.11.2 (and following, if any, till next CMSIS tag)
+Tag v2.3.4 | Tag v5.4.0_cm4 | Tag v1.11.0
+Tag v2.3.4 | Tag v5.4.0_cm4 | Tag v1.11.1
+Tag v2.3.5 | Tag v5.4.0_cm4 | Tag v1.11.2
+Tag v2.3.6 | Tag v5.4.0_cm4 | Tag v1.11.3
 
 The full **STM32CubeF3** MCU package is available [here](https://github.com/STMicroelectronics/STM32CubeF3).
 
 ## Troubleshooting
+If you have any issue with the **Software content** of this repo, you can [file an issue on Github](https://github.com/STMicroelectronics/cmsis_device_f3/issues/new).
 
-If you have any issue with the **software content** of this repository, you can file an issue [here](https://github.com/STMicroelectronics/cmsis_device_f3/issues/new).
-
-For any other question related to the product, the tools, the environment, you can submit a topic to the [ST Community](https://community.st.com/s/).
+For any other question related to the product, the tools, the environment, you can submit a topic on the [ST Community/STM32 MCUs forum](https://community.st.com/s/topic/0TO0X000000BSqSWAW/stm32-mcus).
